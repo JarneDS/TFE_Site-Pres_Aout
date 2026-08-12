@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title>TFE Case Study - De Scheerder Jarne</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta property="og:site_name" content="TFE De Scheerder Jarne">
+    <meta property="og:title" content="Les secrets de la voiture">
+    <meta property="og:description" content="TFE De Scheerder Jarne">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://jarnedescheerder.be/projets/tfe">
+    <meta property="og:image" content="https://jarnedescheerder.be/projets/tfe/public/favico.ico">
+    <meta property="og:image:width" content="1800">
+    <meta property="og:image:height" content="945">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+
+    <link rel="stylesheet" href="/styles/app.scss">
+    <script type="module" src="scripts/app.js" defer></script>
+</head>
+
+<body id="contactPage">
+    <nav class="menu">
+        <img src="logo.png" alt="logo de Les secrets de la voiture" class="menu__img">
+        <button class="menu__btn NAV">Menu</button>
+        <div class="menu__elements">
+            <ul class="menu__ul">
+                <li class="menu__li"><a href="index.html" class="NAV">Accueil</a></li>
+                <li class="menu__li"><a href="histoire.html" class="NAV">Histoire</a></li>
+                <li class="menu__li"><a href="#" class="NAV active">Contact</a></li>
+            </ul>
+            <a href="https://jarnedescheerder.be/projets/tfe-aout/"
+                class="decouvrir NAV">Découvrir&nbsp;l’application</a>
+        </div>
+    </nav>
+    <section class="contact">
+        <h1 class="col--left row--title">Contactez-moi</h1>
+        <form action="" method="get" class="contact__form col--left row--double">
+            <div class="contactForm__element">
+                <label for="Nom" class="h3">Nom:*</label>
+                <input type="text" name="Nom" id="Nom" placeholder="Nom" required>
+            </div>
+            <div class="contactForm__element">
+                <label for="Prenom" class="h3">Prénom:</label>
+                <input type="text" name="Prenom" id="Prenom" placeholder="Prénom">
+            </div>
+            <div class="contactForm__element">
+                <label for="Mail" class="h3">Adresse mail:*</label>
+                <input type="email" name="Mail" id="Mail" placeholder="Adresse mail" required>
+            </div>
+            <div class="contactForm__element">
+                <label for="Message" class="h3">Message:</label>
+                <textarea name="Message" id="Message" placeholder="Message optionnel"></textarea>
+            </div>
+            <button type="submit" class="envoyer NAV">Envoyer</button>
+        </form>
+        <div class="contactLiens col__img--right row--top col--end">
+            <div>
+                <h3>Questions générales</h3>
+                <p><span><a
+                            href="mailto:lesSecretsDeLaVoiture.questions@gmail.com">lesSecretsDeLaVoiture.questions@gmail.com</a></span>
+                </p>
+                <p><span><a href="tel:0032489565798">+32 489 56 57 98</a></span></p>
+                <h3>Rejoindre l’équipe</h3>
+                <p><span><a
+                            href="mailto:lesSecretsDeLaVoiture.join@gmail.com">lesSecretsDeLaVoiture.join@gmail.com</a></span>
+                </p>
+                <p><span><a href="tel:0032492798500">+32 492 79 85 00</a></span></p>
+            </div>
+            <img src="contactImg.webp" alt="Image représentant quelqu'un qui rempli le moteur d'huile."
+                class="contact__img">
+        </div>
+    </section>
+    <footer>
+        <img src="logo.png" alt="logo de Les secrets de la voiture" class="footer__img">
+        <a href="credits.html" class="NAV">Crédits</a>
+        <p class="copyright"><span>©2026 – Jarne De Scheerder – TFE</span></p>
+    </footer>
+</body>
+
+</html>
